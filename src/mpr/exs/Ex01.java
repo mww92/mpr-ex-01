@@ -39,15 +39,14 @@ public class Ex01 {
 			System.out.println("Błąd podczas czytania z pliku" + fname);
 		}
 		System.out.println("Pojedyncze:");
-		 for(String s : poj) {
-             System.out.println(s);
-     }
-     System.out.println();
-     System.out.println("Podwojne:");
-	 for(String d : pod) {
-         System.out.println(d);
- }
- System.out.println();
+		for(String s : poj) {
+             System.out.println(s);  }
+		 		System.out.println();
+     
+		 System.out.println("Podwojne:");
+		 for(String d : pod) {
+			 System.out.println(d);  }
+		 		System.out.println();
 	}
 
 }
